@@ -1,11 +1,13 @@
 #JavaScript
 http://javascript.ruanyifeng.com/grammar/types.html
 (1)原始类型
+-
 数值、字符串、布尔值分别返回number、string、boolean。
 typeof 123 //"number"
 typeof '123' //"string"
 typeof false //"boolean"
 (2)函数
+-
 函数返回function
 <code>
 function f(){}
@@ -13,6 +15,7 @@ typeof f
 // "function"
 </code>
 (3)undefined
+-
 undefined 返回 undefined
 typeof undefined
 //"undefined"
@@ -33,6 +36,7 @@ if(typeof v === "undefined"){
 //...
 }
 (4)其他
+-
 除此以外，其他情况都返回object
 typeof window //"object"
 typeof {} //"object"
