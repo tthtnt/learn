@@ -1,0 +1,166 @@
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.gray{
+	background-color:#E0E0E0;
+}
+.important{
+	background-color:#FF9224;
+}
+.more{
+	color: #8F4586;
+	text-decoration: none;
+	font-weight: bold;
+}
+.more:hover{
+	color: #408080;
+}
+/*box*/
+.simple {
+  width: 500px;
+  margin: 20px auto;
+  border:1px solid #9AFF02;
+}
+
+.fancy {
+  width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border:10px solid #9AFF02;
+}
+/*relative*/
+.relative1 {
+  position: relative;
+  border: 10px solid #C6A300;
+  padding: 20px;
+}
+.relative2 {
+  position: relative;
+  top: 20px;
+  left: 60px;
+  background-color: white;
+  width: 500px;
+  border: 10px solid #5A5AAD;
+  padding: 20px;
+}
+/*fixed*/
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  background-color: white;
+  border: 10px solid #5A5AAD;
+  padding: 20px;
+}
+/*absolute*/
+.relative {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  border: 10px solid #C6A300;
+  padding: 20px;
+}
+.absolute {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height: 200px;
+  border: 10px solid #FFD2D2;
+}
+.float{
+	float: right;
+	margin: 1px;
+}
+.box {
+  float: left;
+  width: 300px;
+  height: 100px;
+  margin: 1em;
+  border: 10px solid #FFD2D2;
+  padding: 20px;
+}
+.around{
+	border: 10px solid #73BF00;
+	padding: 20px;
+}
+/*清除浮动*/
+.after-box{
+	clear: left;
+}
+.empty{
+	width: 400px;
+	height: 200px;
+}
+.border{
+	border: 5px solid;
+}
+.clearfix{
+	overflow: auto;
+}
+.percent{
+	width: 50%;
+	padding: 20px;
+	border: 5px solid;
+}
+/*媒体查询*/
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    width: 50%;
+  }
+  nav li{
+  	display: inline;
+  	direction: none;
+  }
+}
+@media screen and (max-width:599px) {
+  nav li {
+    display: block;
+    color: red;
+  }
+}
+/*行内框*/
+.inline-block{
+	display: inline-block;
+  	width: 200px;
+  	height: 100px;
+  	margin: 1em;
+  	border: 1px dashed;
+  	/*vertical-align: bottom;*/
+}
+/*column*/
+.three-column {
+  padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+}
+.flex{
+	display: -webkit-flex;
+  	display: flex;
+}
+.start-flex{
+	-webkit-flex: 1;
+    flex: 1;
+}
+.dashed{
+	border: 2px dashed;
+	margin: 10px;
+	height: 30px;
+}
+.vertical-container {
+  height: 300px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+          border: 2px dashed;
+}

@@ -1,0 +1,18 @@
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.gray{
+	background-color:#E0E0E0;
+}
+.important{
+	background-color:#FF9224;
+}
+.more{
+	color: #8F4586;
+	text-decoration: none;
+	font-weight: bold;
+}
+.more:hover{
+	color: #408080;
+}

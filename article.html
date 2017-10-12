@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>article</title>
+	<style>
+		.out-border{
+			border: 1px solid red;
+		}
+	</style>
+</head>
+<body>
+	<article>
+		<header>
+			<h1>article</h1>
+			<p>开始使用头部内容</p>
+		</header>
+		<!-- article 嵌套 -->
+		<article>
+			<header>
+				作者
+			</header>
+			<p>内容</p>
+			<p>评论</p>
+			<footer>
+				<p>time</p>
+			</footer>
+		</article>
+		<footer>
+			<p>这是底部</p>
+		</footer>
+	</article>
+	<!-- 表示插件 -->
+	<article>
+		<h1>这是一个内嵌页面</h1>
+		<object>
+			<embed class="out-border" src="http://www.baidu.com" width="960" height="400">
+		</object>
+	</article>
+</body>
+</html>

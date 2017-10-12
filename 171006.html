@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>171006</title>
+		<style type="text/css">
+			.point{
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 全局属性 -->
+		<!-- contentEditable -->
+		<h2>可编辑列表 增加<span class="point">contentditable</span>属性，值为<span class="point">true</span></h2>
+		<ul contenteditable="true">
+			<li>列表1</li>
+			<li>列表2</li>
+			<li>列表3</li>
+		</ul>
+		<h2>不可编辑列表 增加<span class="point">contentditable</span>属性，值为<span class="point">false</span></h2>
+		<ul contenteditable="false">
+			<li>列表1</li>
+			<li>列表2</li>
+			<li>列表3</li>
+		</ul>
+		<!-- designMode属性 -->
+		<!-- 页面可编辑 -->
+		<!-- hidden属性 -->
+		<h2>隐藏列表 增加<span class="point">hidden</span>属性</h2>
+		<ul hidden="true">
+			<li>列表1</li>
+			<li>列表2</li>
+			<li>列表3</li>
+		</ul>
+		<h2>显示列表 不增加<span class="point">hidden</span>属性</h2>
+		<ul>
+			<li>列表1</li>
+			<li>列表2</li>
+			<li>列表3</li>
+		</ul>
+		<!-- spellcheck属性 语法检查-->
+		<h2>语法检查 增加<span class="point">spellcheck</span>属性</h2>
+		<input type="text" spellcheck="spellcheck">
+		<!-- tabindex属性 对窗口所有元素进行遍历-->
+		<div>
+			<a href="#" tabindex="1">hello</a>
+			<a href="#" tabindex="3">hello</a>
+			<a href="#" tabindex="2">hello</a>
+		</div>
+		<!-- 只有链接元素和表单元素可通过按tab键获取焦点 -->
+		<!-- 如果想要其他控件可以使用tab获取焦点，就使用tabindex -->
+		<h2>使ul获得焦点 为ul增加<span class="point">tabindex</span>属性</h2>
+		<ul tabindex="4">
+			<li>列表1</li>
+			<li>列表2</li>
+			<li>列表3</li>
+		</ul>
+		<h2>ul获得焦点但不能通过tab键获取焦点，将tabindex设置为<span class="point">-1</span></h2>
+		<ul tabindex="-1">
+			<li>列表1</li>
+			<li>列表2</li>
+			<li>列表3</li>
+		</ul>
+	</body>
+</html>
