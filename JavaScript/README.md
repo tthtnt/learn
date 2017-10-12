@@ -9,14 +9,14 @@ typeof false //"boolean"
 (2)函数
 -
 函数返回function
-<code>
-function f(){}
-typeof f
-// "function"
-</code>
+
+	function f(){}
+	typeof f
+	// "function"
+
 (3)undefined
 -
-undefined 返回 undefined
+'undefined' 返回 undefined
 typeof undefined
 //"undefined"
 利用这一点，typeof可以用来检查一个没有声明的变量，而不报错
