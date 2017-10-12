@@ -17,6 +17,7 @@ http://javascript.ruanyifeng.com/grammar/types.html
 	// "function"
 
 (3)undefined
+-
 undefined 返回 undefined
 
 	typeof undefined
@@ -47,6 +48,7 @@ undefined 返回 undefined
 
 
 (4)其他
+-
 除此以外，其他情况都返回object
 
 	typeof window //"object"
