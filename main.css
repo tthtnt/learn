@@ -2,7 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: "楷体";
-	font-size: 1em;
+	/*font-size: 1em;*/
 	text-align: center;
 }
 .container{
@@ -27,7 +27,7 @@
 	color: white;
 }
 /**********************************************************导航栏*****************************************/
-ul{
+.nav-ul{
 	list-style: none;
 	margin: 0 auto;
 	background-color: #8600FF;
@@ -36,7 +36,7 @@ ul{
 	border-left:2px #3A006F solid;
 	display: flex;
 }
-ul li{
+.nav-ul li{
 	display: inline;
 	/*display: inline-block;*/
 	/*第二种实现方法*/
@@ -51,9 +51,52 @@ ul li{
 	-webkit-flex: 1;
     flex: 1;
 }
-ul li:hover{
+.nav-ul li:hover{
 	background-color: #5B00AE;
 }
 .checked{
 	background-color: #6F00D2;
+}
+.float-left{
+	display: inline-block;
+	float: left;
+	width: 635px;
+	border: 2px dashed black;
+	margin-right: 20px;
+	padding: 20px;
+}
+.float-right{
+	height: auto;
+	display: inline-block;
+	float: left;
+	width: 217px;
+	border: 2px dashed black;
+	padding: 20px;
+}
+h1{
+	text-align: left;
+}
+.content{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.article-ul{
+	margin-top: 20px;
+	list-style: none;
+
+}
+.article-ul li{
+	text-align: left;
+}
+.article-link{
+	color: black;
+	text-decoration: none;
+	font-weight: gray;
+}
+.article-link:hover{
+	color: black;
+}
+.article-link:visited{
+	color: black;
 }

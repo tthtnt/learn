@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form新特性</title>
+	<link rel="stylesheet" href="../main.css">
+</head>
+<body>
+	<article class="container">
+		<header>
+			<nav>
+				<ul class="thress-column nav-ul">
+					<li class="checked"><a class="more" href="../index.html">主页</a></li>
+					<li>备用</li>
+					<li>备用</li>
+				</ul>
+			</nav>
+		</header>
+	</article>
+	<article class="content">
+		<h1>
+			form的新特性
+		</h1>
+		<p>在HTML4中，表单内的内容只能在form标签里，在HTML5中，可以将表单内容通过form属性和form id链接进form表单中</p>
+		<p>下面是例子</p>
+		<form style="border: 2px dashed blue" id=form-test action="test.php" method="POST">
+			<input type="text" name="s2" value="这是表单内的内容">
+		</form>
+		<input type="submit" name="s1" value="这是表单外的内容" form="form-test">这是表单外的内容
+	</article>
+</body>
+</html>
