@@ -1,7 +1,7 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	font-family: "楷体";
+body,p{
+	margin: 0;
+	padding: 0;
+	font-family:"lantinghei SC","楷体","Hiragino Sana GB",sans-serif;
 	/*font-size: 1em;*/
 	text-align: center;
 }
@@ -83,8 +83,6 @@ h1{
 }
 .article-ul{
 	margin-top: 20px;
-	list-style: none;
-
 }
 .article-ul li{
 	text-align: left;
@@ -92,7 +90,7 @@ h1{
 .article-link{
 	color: black;
 	text-decoration: none;
-	font-weight: gray;
+	font-weight:bold;
 }
 .article-link:hover{
 	color: black;
