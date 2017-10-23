@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="680f2019-90b4-4ae2-85c6-32b08af2bafc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jikexueyuan/practice/css/style.css" afterPath="$PROJECT_DIR$/jikexueyuan/practice/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jikexueyuan/practice/one_videopage.html" afterPath="$PROJECT_DIR$/jikexueyuan/practice/one_videopage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -206,7 +204,7 @@
       <workItem from="1507728787377" duration="121000" />
       <workItem from="1507728959465" duration="373000" />
       <workItem from="1508575841200" duration="4750000" />
-      <workItem from="1508757415613" duration="5308000" />
+      <workItem from="1508757415613" duration="5328000" />
     </task>
     <task id="LOCAL-00001" summary="171022 加入一些学习代码">
       <created>1508654396352</created>
@@ -222,11 +220,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508757432056</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="171023 加入一些学习代码">
+      <created>1508763374813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508763374813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10552000" />
+    <option name="totallyTimeSpent" value="10572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
@@ -269,7 +274,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="171022 加入一些学习代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="171022 加入一些学习代码" />
+    <MESSAGE value="171023 加入一些学习代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="171023 加入一些学习代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
