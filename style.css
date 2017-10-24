@@ -1,0 +1,18 @@
+.nav-list .nav-ul{
+	list-style: none;
+	margin: 0 auto;
+}
+
+.nav-list .nav-ul li{
+	font-size: 20px;
+	line-height: 20px;
+	padding: 18px 24px;
+	float: left;
+	text-align: center;
+	width: 260px;
+	/*background-color: #fff*/
+	/*margin-right: px;*/
+}
+.nav-list .nav-ul a{
+	text-decoration: none;
+}

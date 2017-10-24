@@ -1,0 +1,18 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family:"lantinghei SC","楷体","Hiragino Sana GB",sans-serif;
+	background-color: #c1c1c1;
+}
+.w-1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+b{
+	font-weight: bold;
+}
+.cf{
+	display: block;
+	content: "";
+	clear: both;
+}
