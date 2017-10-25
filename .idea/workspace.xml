@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="680f2019-90b4-4ae2-85c6-32b08af2bafc" name="Default" comment="171023 加入一些学习代码">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jikexueyuan/real_practice/images/learnCourseVideoTop.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jikexueyuan/real_practice/images/touxiang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jikexueyuan/real_practice/images/video.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jikexueyuan/real_practice/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jikexueyuan/real_practice/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jikexueyuan/real_practice/one_videopage.html" />
+    <list default="true" id="680f2019-90b4-4ae2-85c6-32b08af2bafc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common.css" afterPath="$PROJECT_DIR$/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jikexueyuan/practice/css/style.css" afterPath="$PROJECT_DIR$/jikexueyuan/practice/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jikexueyuan/practice/one_videopage.html" afterPath="$PROJECT_DIR$/jikexueyuan/practice/one_videopage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -183,7 +170,7 @@
       <workItem from="1508575841200" duration="4750000" />
       <workItem from="1508757415613" duration="8399000" />
       <workItem from="1508847759569" duration="59000" />
-      <workItem from="1508939971538" duration="1790000" />
+      <workItem from="1508939971538" duration="1799000" />
     </task>
     <task id="LOCAL-00001" summary="171022 加入一些学习代码">
       <created>1508654396352</created>
@@ -213,11 +200,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508763383224</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="171023 加入一些学习代码">
+      <created>1508941768497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1508941768497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15492000" />
+    <option name="totallyTimeSpent" value="15501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
