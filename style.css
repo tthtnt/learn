@@ -1,18 +1,57 @@
-.nav-list .nav-ul{
-	list-style: none;
+.ue-bar{
+	background-color: #222222;
+}
+.ue-bar-warp{
+	width: 1000px;
+	height: 70px;
 	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
 }
-
-.nav-list .nav-ul li{
-	font-size: 20px;
-	line-height: 20px;
-	padding: 18px 24px;
+.ue-logo{
+	width: 134px;
+	height: 50px;
 	float: left;
-	text-align: center;
-	width: 260px;
-	/*background-color: #fff*/
-	/*margin-right: px;*/
+	padding-left: 10px;
+	padding-right: 100px;
+	padding-top: 8px;
 }
-.nav-list .nav-ul a{
-	text-decoration: none;
+.ue-logo img{
+	width: 100px;
+	height: 25px;
+	border-radius: 20px;
+	box-shadow: 1px -1px 2px rgba(255,255,255,0.5);
+}
+.ue-logo a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	margin-top: 12px;
+}
+.ue-bar-nav{
+	height: 70px;
+	float: left;
+}
+.ue-bar-nav li{
+	height: 70px;
+	float: left;
+	margin-right: 20px;
+}
+.ue-bar-nav li *{
+	color: #dadada;
+	font-size: 14px;
+	display: inline-block;
+	line-height: 17px;
+	vertical-align: top;
+}
+.ue-bar-nav li a{
+	height: 22px;
+	line-height: 22px;
+	padding: 26px 58px;
+}
+.ue-bar-nav li.active{
+	background-color: #333333;
+}
+.ue-bar-nav li a:hover{
+	background-color: #333333;
 }

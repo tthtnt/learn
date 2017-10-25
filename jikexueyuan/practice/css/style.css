@@ -174,6 +174,22 @@
      float: left;
      padding: 20px;
  }
- .video-list .right .list-question .question-title a{
-     
+ .video-list .right .list-content .question-title a{
+     color: #23ba98;
+     font-weight: 700;
+     font-size: 22px;
  }
+ .video-list .right .question-title .replaynum p{
+     color: #c1c1c1;
+     font-size: 14px;
+     padding: 6px;
+ }
+.video-list .right .question-title .replaynum .topbottom{
+    padding: 6px;
+}
+.video-list .list-content .replay-img-name-des img{
+    padding: 6px;
+    width: 32px;
+    border-radius: 16px;
+}
+
