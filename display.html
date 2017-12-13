@@ -4,6 +4,13 @@
 		<meta charset="UTF-8">
 		<title>display</title>
 		<style>
+			*{
+				padding: 0;
+				margin:0;
+			}
+			div{
+				display: block;
+			}
 			.container{
 				width: 960px;
 				margin: 0 auto;
@@ -22,11 +29,66 @@
 			.more:hover{
 				color: #408080;
 			}
+			.ue-bar{
+				background-color: #222222;
+			}
+			.ue-bar-warp{
+				width: 100%;
+				height: 70px;
+				margin: 0 auto;
+				overflow: hidden;
+				position: relative;
+			}
+			.ue-bar-nav{
+				width: 100%;
+				height: 70px;
+				float: left;
+			}
+			.ue-bar-nav ul{
+				list-style:none;
+			}
+			.ue-bar-nav li{
+				width: 30%;
+				text-align: center;
+				float: left;
+				height: 70px;
+				/*margin-right: 20px;*/
+			}
+			.ue-bar-nav li *{
+				color: #dadada;
+				font-size: 14px;
+				display: inline-block;
+				line-height: 17px;
+			}
+			.ue-bar-nav li a{
+				width: 100%;
+				outline: none;
+				line-height: 40px;
+				padding: 15px 0;
+				text-decoration: none;
+			}
+			.ue-bar-nav .active{
+				background-color: #333333;
+			}
+			.ue-bar-nav li a:hover{
+				background-color: #444444;
+			}
 		</style>
 		<link rel="stylesheet" href="layout.css">
 	</head>
 	<body>
 		<article class="container">
+			<div class="ue-bar">
+				<div class="ue-bar-warp">
+					<div class="ue-bar-nav">
+						<ul>
+							<li class="active left"><a href="index.html">主页</a></li>
+							<li class="main"><a href="#">备用</a></li>
+							<li class="right"><a href="#">备用</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 			<header>
 				<h1>这个页面主要是讲display属性的两个默认值</h1>
 			</header>

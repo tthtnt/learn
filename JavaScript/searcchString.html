@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>查询字符串参数</title>
+</head>
+<body>
+	<script>
+		function getQueryStringArgs(){
+			//如果location.search.length 大于0 qs= location.search.substring(1),意为去掉开头的问号
+			var qs = (location.search.length > 0 ? location.search.substring(1) : ""),
+
+			args = {},
+			//items是一个数组，是把qs按照"&"符号进行分割的数组
+			items = qs.length ? qs.split("&") :[],  //加入逗号是连续给很多个变量赋值，这些变量并不在items数组里面，但是没有加入var声明，这些变量都算是全局变量吗？
+			item = null,
+			name = null,
+			value = null,
+			i = 0,
+			len = items.length;//这里获取了items的长度
+			//进行for循环
+			for (var i = 0; i < len; i++) {
+				//将每个items再次按照"="号进行分割
+				item = items[i].split("=");
+				//name 等于等于号前面部分
+				name = decodeURIComponent(item[0]);
+				//value 等于等于号后面部分
+				value = decodeURIComponent(item[1]);
+				//如果name有值
+				if (name.length) {
+					//args[]是一个数组，索引是name
+					args[name] = value;
+				}
+			}
+			return args;
+		}
+		var args = getQueryStringArgs();
+		alert(args["q"]);
+		alert(args["abc"]);
+		// alert(args["aaa"]);
+		
+	</script>
+</body>
+</html>

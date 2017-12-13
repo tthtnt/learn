@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>检测插件（兼容IE浏览器的典型方法）</title>
+</head>
+<body>
+	<script>
+		function hasPlugin(name){
+			name = name.toLowerCase();
+			for (var i = 0; i < navigator.plugins.length; i++) {
+				if (navigator.plugins[i].name.toLowerCase().indexOf(name) > -1) {
+					return true;
+				}
+			}
+			return false;
+		}
+		//但是单一这样检测无法兼顾IE浏览器
+		//典型的做法是针对每个插件分别创建检测函数
+		function hasIEPlugin(name){
+			try{
+				new ActiveXObject(name);
+				return true;
+			}catch (ex){
+				return false;
+			}
+		}
+		function hasFalsh(){
+			var result = hasPlugin("Flash");
+			if (!result) {
+				result = hasIEPlugin("ShockwaveFlash.ShockwaveFlash");
+			}
+			return result;
+		}
+		function hasQuickTime(){
+			var result = hasPlugin("QuickTime");
+			if (!result) {
+				result = hasIEPlugin("QuickTime.QuickTime");
+			}
+			return result;
+		}
+
+		alert(hasFalsh());
+
+		alert(hasQuickTime());
+		
+	</script>
+</body>
+</html>

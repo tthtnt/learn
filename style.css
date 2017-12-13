@@ -42,12 +42,12 @@
 	font-size: 14px;
 	display: inline-block;
 	line-height: 17px;
-	vertical-align: top;
+	vertical-align: top;		
 }
 .ue-bar-nav li a{
 	height: 22px;
 	line-height: 22px;
-	padding: 26px 58px;
+	padding: 24px 58px;
 }
 .ue-bar-nav li.active{
 	background-color: #333333;
