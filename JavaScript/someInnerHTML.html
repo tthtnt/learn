@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>innerHTML</title>
+</head>
+<body>
+    <div id="a"></div>
+    <script>
+        var div = document.getElementById("a");
+        div.innerHTML = "Hello & welcome, <b>\"reader\"!</b>";
+        // 再次调用的时候，会把上一句话覆盖
+        // var div = document.getElementById("a");
+        // div.innerHTML = "<br/>这是换行的单纯的文字";
+        // 通过innerHTML添加的script元素并不会执行其中的脚本
+    </script>
+</body>
+</html>

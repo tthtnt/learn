@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义数据属性</title>
+</head>
+<body>
+    <div id="mydiv" data-myname="abc"></div>
+    <script>
+        var div = document.getElementById("mydiv");
+        //定义自定义属性
+        // var appId = div.dataset.appId;
+        var myname = div.dataset.myname;
+        //可以获取自定义属性的值。但是不能通过var变量修改自定义属性的值
+        //修改自定义属性
+        // appId = 3545;
+        // myname = "adff";
+        div.dataset.appId = 23456;
+        // div.dataset.myname = "lsj";
+        //判断是否有自定义属性
+        if(div.dataset.myname){
+            alert("hello " + div.dataset.myname);
+            alert("hello " + myname);
+        }
+    </script>
+</body>
+</html>
