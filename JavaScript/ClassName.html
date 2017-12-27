@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>操作类名</title>
+</head>
+<body>
+<div id="div" class="bd user disabled">...</div>
+<button onclick="deleteClassNew()">点击</button>
+<script>
+//    显示浏览器字符集属性
+//    alert(document.charset);
+//    document.charset = "";
+//好像不能手动设置字符集
+    alert(document.charset);
+    //    检测浏览器的渲染模式
+    if (document.compatMode == "CSS1Compat"){
+        alert("Standards mode");
+    }else{
+        alert("Quirks mode");
+    }
+    //新式的删除类名，使用classList属性
+    function deleteClassNew() {
+        div.classList.toggle("user");
+        div.classList.add("current");
+        if (!div.classList.contains("bg")){
+            alert("没有bg类型");
+        }
+    }
+    //老式的删除类名
+    function deleteClassOld()
+    {
+        var div = document.getElementById("div");
+        var className = div.className.split(/\s+/);
+
+        var pos = -1,
+            i,
+            len;
+        for(i =0,len = className.length;i < len;i++){
+            if (className[i] == "user"){
+                pos = i;
+                break;
+            }
+        }
+
+        className.splice(i,1);
+        div.className = className.join(" ");
+    }
+
+</script>
+</body>
+</html>
